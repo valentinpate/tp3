@@ -707,6 +707,12 @@ a[type=useful-links]:hover{
         font-size:2.3rem;
         margin: 0 2.3em 0 0;
     }
+    h1[type=listing-house]{
+        font-size:2.3rem;
+    }
+    h1[type=listing-step-2]{
+        font-size:1.8rem;
+    }
     p[type=lorem2]{
         font-size:1rem;
     }
