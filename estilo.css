@@ -410,6 +410,10 @@ a[type=useful-links]:hover{
     cursor:pointer;
 }
 
+.burger{
+    display:none;
+}
+
 .hero{
     display:flex;
 }
@@ -633,5 +637,57 @@ a[type=useful-links]:hover{
 .newsletter{
     display:flex;
     flex-direction:column;
-    /* justify-content:flex-start; */
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:767px){
+    button[type=quote]{
+        display:none;
+    }
+    h1[type=main-heading]{
+        font-size:2.3rem;
+        margin: 0;
+    }
+    input[type=search1]{
+        padding: 1.7em 3em;
+    }
+    p[type=lorem]{
+        font-size:0.8rem;
+    }
+    p[type=precio3], p[type=precio4], img[type=casa3], img[type=casa4], img[type=our-mission], img[type=casaconclus]{
+        display:none;
+    }
+    .logo{
+        margin: 1.1em 8.5em;
+        justify-content:center;
+    }
+    .burger{
+        font-size:2rem;
+        position:fixed;
+        top:0.6em;
+        left:0.2em;
+        cursor:pointer;
+        display:flex;
+        flex-direction:row-reverse;
+    }
+    .hero{
+        display:block;
+        /* flex-direction:column; */
+        /* justify-content:flex-start; */
+    }
+    .main-hero{
+        margin: 0 0 0 0;
+        text-align:center;
+    }
+    .facto{
+        font-size:1.1rem;
+        flex-direction:column;
+    }
+    footer, .intro-dos, .casas, .vision-mission, .steps, .pasos, .steps-final, .choose-us, .conclussion{
+        flex-direction:column;
+    }
+    .menu, .descripcion3, .descripcion4, .numeros, .feedback3, .feedback4{
+        display:none;
+    }
 }
