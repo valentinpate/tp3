@@ -141,25 +141,25 @@ p[type=precio1], p[type=precio2], p[type=precio3], p[type=precio4]{
 
 p[type=precio1]{
     position:absolute;
-    top:66.5em;
+    top:66.3em;
     left:19.7em;
 }
 
 p[type=precio2]{
     position:absolute;
-    top:66.5em;
+    top:66.3em;
     left:40.7em;
 }
 
 p[type=precio3]{
     position:absolute;
-    top:66.5em;
+    top:66.3em;
     left:61.7em;
 }
 
 p[type=precio4]{
     position:absolute;
-    top:66.5em;
+    top:66.3em;
     left:82.7em;
 }
 
@@ -289,10 +289,6 @@ img[type=casa1], img[type=casa2], img[type=casa3], img[type=casa4]{
     width:18em;
     margin: 4em 1.5em 0 1.5em;
 }
-
-/* img[type=our-vision], img[type=our-mission]{
-    border-radius:1em;
-} */
 
 img[type=casa-choose-us]{
     width:35rem;
@@ -592,7 +588,7 @@ a[type=useful-links]:hover{
 }
 
 .conclussion{
-    margin:8em 0 5em 0;
+    margin:6em 0 7em 0;
     display:flex;
     justify-content:space-evenly;
 }
@@ -606,7 +602,8 @@ a[type=useful-links]:hover{
     flex-direction:column;
 }
 
-.logo{
+.logo2{
+    display:flex;
     margin: 0 3em 0.3em 0;
 }
 
