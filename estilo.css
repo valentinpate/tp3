@@ -305,7 +305,7 @@ img[type=casadream]{
     margin: 0 0 0 15em;
 }
 
-img[type=casaconclus]{
+img[type=casaconclus], img[type=casaconclus3]{
     width:12.5em;
     height:12.5em;
     margin:0 0.5em;
@@ -641,39 +641,48 @@ a[type=useful-links]:hover{
 
 /* MEDIA QUERIES */
 
-@media (max-width:1980px){
+/* @media (max-width:1980px){
     button[type=search1]{
         position:absolute;
         left:54.3em;
         padding-left:2em;
         padding-right:5em;
     }
+    h1[type=steps]{
+        margin: 0 2.3em 0 0;
+    }
     p[type=precio1]{
         position:absolute;
-        top:62em;
-        left:8.7em;
+        top:66.2em;
+        left:15.2em;
     }
     p[type=precio2]{
         position:absolute;
-        top:62em;
-        left:29.7em;
+        top:66.2em;
+        left:36.2em;
     }
     p[type=precio3]{
         position:absolute;
-        top:62em;
-        left:50.7em;
+        top:66.2em;
+        left:57.2em;
     }
     p[type=precio4]{
         position:absolute;
-        top:62em;
-        left:71.7em;
+        top:66.2em;
+        left:78.2em;
+    }
+    img[type=casaconclus]{
+        margin: 0 1em;
+    }
+    img[type=casaconclus3]{
+        display:none;
     }
     .intro-dos{
         width:145vh;
     }
-}
+} */
 
-@media (max-width:1536px){
+@media (max-width:1364px){
     button[type=quote]{
     position:relative;
     left:75em;
@@ -685,7 +694,7 @@ a[type=useful-links]:hover{
         padding-left:2em;
         padding-right:5em;
     }
-    img[type=casaconclus], img[type=casa], img[type=casa4], p[type=precio4]{
+    img[type=casaconclus], img[type=casa], img[type=casa4], p[type=precio1], p[type=precio2], p[type=precio3], p[type=precio4]{
         display:none;
     }
     img[type=casadream]{
@@ -698,23 +707,14 @@ a[type=useful-links]:hover{
         font-size:2.3rem;
         margin: 0 2.3em 0 0;
     }
-    p[type=precio1]{
-        position:absolute;
-        top:59.2em;
-        left:14.7em;
-    }
-    p[type=precio2]{
-        position:absolute;
-        top:59.2em;
-        left:35.7em;
-    }
-    p[type=precio3]{
-        position:absolute;
-        top:59.2em;
-        left:56.7em;
+    p[type=lorem2]{
+        font-size:1rem;
     }
     p[type=lorem4]{
         font-size:1rem;
+    }
+    footer{
+        font-size:0.8rem;
     }
     .encabezado{
         width:55%;
@@ -751,8 +751,14 @@ a[type=useful-links]:hover{
         left:19em; 
     }
     .intro-dos{
-        width:150vh;
+        font-size:0.8rem;
         justify-content:center;
+    }
+    .see-more{
+        white-space:nowrap;
+    }
+    .steps-final{
+        white-space:nowrap;
     }
     .customers-intro{
         justify-content:center;
@@ -760,11 +766,17 @@ a[type=useful-links]:hover{
     .descripcion4, .ubicacion4, .feedback4{
         display:none;
     }
+    .numeros{
+        font-size:0.8rem;
+    }
+    .pasos{
+        font-size:0.8rem;
+    }
 }
 
 @media (max-width:1280px){}
 
-@media (max-width:1024px){
+/* @media (max-width:1024px){
     button[type=quote]{
         display:none;
     }
@@ -772,12 +784,12 @@ a[type=useful-links]:hover{
         font-size:2.3rem;
         margin: 0;
     }
-    /* p[type=lorem]{
+    p[type=lorem]{
         font-size:0.8rem;
     }
-    input[type=search1], p[type=precio3], p[type=precio4], img[type=casa3], img[type=casa4], img[type=our-mission], img[type=casaconclus]{
+    p[type=precio3], p[type=precio4], img[type=casa3], img[type=casa4], img[type=our-mission], img[type=casaconclus]{
         display:none;
-    } */
+    }
     .logo{
         margin: 1.1em 8.5em;
         justify-content:center;
@@ -791,7 +803,13 @@ a[type=useful-links]:hover{
         display:flex;
         flex-direction:row-reverse;
     }
-    /* .hero{
+    .numeros{
+        font-size:0.6rem;
+    }
+    .pasos{
+        font-size:0.6rem;
+    }
+    .hero{
         display:block;
     }
     .main-hero{
@@ -801,13 +819,13 @@ a[type=useful-links]:hover{
         font-size:1.1rem;
         flex-direction:column;
     }
-    footer, .intro-dos, .casas, .vision-mission, .steps, .pasos, .steps-final, .choose-us, .conclussion{
+    .intro-dos, .casas, .vision-mission, .choose-us, .conclussion{
         flex-direction:column;
     }
-    .menu, .descripcion3, .descripcion4, .numeros, .feedback3, .feedback4{
+    .menu, .descripcion3, .descripcion4,.feedback3, .feedback4{
         display:none;
-    } */
-}
+    }
+} */
 
 @media (max-width:768px){}
 
