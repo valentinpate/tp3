@@ -46,7 +46,7 @@ h1[type=listing-house]{
     margin: 0.2em 0 0.5em 0;
 }
 
-h1[type=steps]{
+h1[type=steps], h1[type=steps-s]{
     font-size:2.7rem;
     margin: 0 11.3em 0 0;
 }
@@ -109,7 +109,7 @@ p[type=lorem]{
     margin: 0 0 2em 0;
 }
 
-p[type=lorem2]{
+p[type=lorem2], p[type=lorem2-s], p[type=lorem2-l]{
     font-size:1.1rem;
     margin: 0.4em 15em 0 0;
 }
@@ -641,200 +641,199 @@ a[type=useful-links]:hover{
 
 /* MEDIA QUERIES */
 
-/* @media (max-width:1980px){
+@media(min-width:1394px){
     button[type=search1]{
         position:absolute;
+        top:37.3em;
         left:54.3em;
         padding-left:2em;
         padding-right:5em;
     }
-    h1[type=steps]{
-        margin: 0 2.3em 0 0;
-    }
     p[type=precio1]{
         position:absolute;
-        top:66.2em;
-        left:15.2em;
+        left:18.6em;
     }
     p[type=precio2]{
         position:absolute;
-        top:66.2em;
-        left:36.2em;
+        left:39.6em;
     }
     p[type=precio3]{
         position:absolute;
-        top:66.2em;
-        left:57.2em;
+        left:60.6em;
     }
     p[type=precio4]{
         position:absolute;
-        top:66.2em;
-        left:78.2em;
+        left:81.6em;
     }
-    img[type=casaconclus]{
-        margin: 0 1em;
-    }
-    img[type=casaconclus3]{
-        display:none;
-    }
-    .intro-dos{
-        width:145vh;
-    }
-} */
-
-@media (max-width:1364px){
-    button[type=quote]{
-    position:relative;
-    left:75em;
-    }
-    button[type=search1]{
-        position:absolute;
-        top:34.1em;
-        left:61.3em;
-        padding-left:2em;
-        padding-right:5em;
-    }
-    img[type=casaconclus], img[type=casa], img[type=casa4], p[type=precio1], p[type=precio2], p[type=precio3], p[type=precio4]{
-        display:none;
-    }
-    img[type=casadream]{
-        margin: 0 3em 0 4.2em;
-    }
-    h1[type=listing]{
-        margin: 0 5em 0 0;
-    }
-    h1[type=steps]{
-        font-size:2.3rem;
-        margin: 0 2.3em 0 0;
-    }
-    h1[type=listing-house]{
-        font-size:2.3rem;
-    }
-    h1[type=listing-step-2]{
-        font-size:1.8rem;
-    }
-    p[type=lorem2]{
-        font-size:1rem;
-    }
-    p[type=lorem4]{
-        font-size:1rem;
-    }
-    footer{
-        font-size:0.8rem;
-    }
-    .encabezado{
-        width:55%;
-    }
-    .menu{
-        display:none;
-    }
-    .burger{
-        font-size:2rem;
-        position:fixed;
-        top:0.6em;
-        left:0.2em;
-        cursor:pointer;
-        display:flex;
-        flex-direction:row-reverse;
-    }
-    .hero{
-        width:100vh;
-        flex-direction:column;
-        align-items:center;
-    }
-    .main-hero{
-        margin:3.5em 0 0 13em;
-    }
-    .main-heading{
-        text-align:center;
-    }
-    .facto{
-        justify-content:center;
-    }
-    .bi-search{
-        position:absolute;
-        top:30em;
-        left:19em; 
-    }
-    .intro-dos{
-        font-size:0.8rem;
-        justify-content:center;
-    }
-    .see-more{
-        white-space:nowrap;
-    }
-    .steps-final{
-        white-space:nowrap;
-    }
-    .customers-intro{
-        justify-content:center;
-    }
-    .descripcion4, .ubicacion4, .feedback4{
-        display:none;
-    }
-    .numeros{
-        font-size:0.8rem;
-    }
-    .pasos{
-        font-size:0.8rem;
+    footer, .hero, .intro-dos, .casas, .descripcion, .see-more, .vision-mission, .steps, .numeros, .pasos, .steps-final, .choose-us, .customers, .conclussion{
+        width:200vh;
     }
 }
 
-@media (max-width:1280px){}
-
-/* @media (max-width:1024px){
+@media(max-width:1393px){
     button[type=quote]{
+        position:relative;
+        left:30em;
+    }
+    button[type=search1]{
+        position:absolute;
+        top:37.3em;
+        left:54.3em;
+        padding-left:2em;
+        padding-right:5em;
+    }
+    button[type=see-more-button-2]{
+        margin: 0 11.em 0 0;
+    }
+    h1[type=steps-s]{
+        font-size:2.2rem;
+    }
+    p[type=precio1]{
+        position:absolute;
+        top:66em;
+        left:13.2em;
+    }
+    p[type=precio2]{
+        position:absolute;
+        top:66em;
+        left:34.2em;
+    }
+    p[type=precio3]{
+        position:absolute;
+        top:66em;
+        left:55.2em;
+    }
+    p[type=precio4]{
+        position:absolute;
+        top:66em;
+        left:76.2em;
+    }
+    footer, .encabezado, .hero, .intro-dos, .casas, .descripcion, .see-more, .vision-mission, .steps, .numeros, .pasos, .steps-final, .choose-us, .feedback, .conclussion{
+        width:200vh;
+    }
+    .customers-intro{
+        width:200vh;
+    }
+}
+
+@media (max-width:1200px){
+    footer, .encabezado, .numeros, .pasos, .steps-final{
+        width:150vh;
+    }
+    .casas, .descripcion, .see-more, .vision-mission, .steps, .numeros, .pasos{
+        width:160vh;
+    }
+    .intro-dos, .choose-us, .customers-intro, .feedback{
+        width:170vh;
+    }
+    .conclussion{
+        width:170vh;
+    }
+    img[type=casa4], img[type=casaconclus3], p[type=precio4], .descripcion4, .ubicacion4, .feedback4{
         display:none;
     }
-    h1[type=main-heading]{
-        font-size:2.3rem;
-        margin: 0;
+    button[type=quote]{
+        position:relative;
+        left:17em;
     }
-    p[type=lorem]{
+    button[type=search1]{
+        position:absolute;
+        top:37.1em;
+        left:46.3em;
+        padding-left:2em;
+        padding-right:5em;
+    }
+    img[type=casa]{
+        width:55vh;
+        margin:5em 0 0 3em;
+    }
+    img[type=casa1], img[type=casa2], img[type=casa3]{
+        width:21em;
+        margin: 2.7em 2em 0 1em;
+    }
+    img[type=casa-choose-us]{
+        width:30em;
+    }
+    h1[type=steps-s]{
+        font-size:2.2rem;
+        margin: 0 6.3em 0 0;
+    }
+    p[type=precio1]{
+        position:absolute;
+        top:60.5em;
+        left:8.2em;
+    }
+    p[type=precio2]{
+        position:absolute;
+        top:60.5em;
+        left:32.2em;
+    }
+    p[type=precio3]{
+        position:absolute;
+        top:60.5em;
+        left:56.2em;
+    }
+    p[type=lorem2-s]{
+        margin:0.4em 7em 0 0;
+    }
+    p[type=lorem2-l]{
+        font-size:1rem;
+        margin: 0.4em 7em 0 0;
+    }
+    p[type=lorem4]{
+        font-size:0.9rem;
+    }
+    .encabezado{
         font-size:0.8rem;
     }
-    p[type=precio3], p[type=precio4], img[type=casa3], img[type=casa4], img[type=our-mission], img[type=casaconclus]{
-        display:none;
-    }
-    .logo{
-        margin: 1.1em 8.5em;
-        justify-content:center;
-    }
-    .burger{
-        font-size:2rem;
-        position:fixed;
-        top:0.6em;
-        left:0.2em;
-        cursor:pointer;
-        display:flex;
-        flex-direction:row-reverse;
-    }
-    .numeros{
-        font-size:0.6rem;
-    }
-    .pasos{
-        font-size:0.6rem;
+    .menu{
+        margin: 1.7em 0 0 18em;
     }
     .hero{
-        display:block;
+        width:160vh;
+        justify-content:center;
     }
     .main-hero{
+        margin:6.5em 0 0 3em;
+    }
+    .bi-search{
+        position:absolute;
+        top:32.5em;
+        left:6.5em; 
+    }
+    .descripcion1{
         text-align:center;
+        margin: 1em 6em 0em 6em;
+        position:relative;
+        right:6em;
     }
-    .facto{
-        font-size:1.1rem;
-        flex-direction:column;
+    
+    .descripcion2{
+        text-align:center;
+        margin: 1em 0em 0em 0em;
+        position:relative;
+        right:0.8em;
     }
-    .intro-dos, .casas, .vision-mission, .choose-us, .conclussion{
-        flex-direction:column;
+    
+    .descripcion3{
+        text-align:center;
+        margin: 1em 6em 0em 6em;
+        position:relative;
+        left:4.5em;
     }
-    .menu, .descripcion3, .descripcion4,.feedback3, .feedback4{
-        display:none;
+    .steps{
+        font-size:0.8rem;
     }
-} */
+    .choose-us-menu{
+        margin:0.2em 3em 0 3em;
+    }
+}
+
+@media (max-width:1024px){
+}
 
 @media (max-width:768px){}
 
-@media (max-width:640px){}
+@media (max-width:480px){}
 
-@media (max-width:475px){}
+@media (max-width:320px){}
